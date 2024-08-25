@@ -1,5 +1,5 @@
 <template>
-    <div class="flex h-screen font-roboto-flex dark:bg-dark">
+    <div class="flex h-screen font-roboto-flex dark:bg-dark bg-backg">
       <!-- Block Sidebar -->
       <Sidebar />
       <!-- End Block Sidebar -->

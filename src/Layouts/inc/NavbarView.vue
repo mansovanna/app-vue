@@ -1,13 +1,13 @@
 <template>
-  <div class="w-full px-4 py-2 flex flex-row justify-between items-center dark:bg-darks bg-white shadow" >
+  <div class="w-full px-4 py-2 flex flex-row justify-between items-center dark:bg-darks bg-white shadow z-50" >
     <!-- Menu Toggle -->
-    <button @click="menu" class="p-1 rounded-full hover:bg-slate-600 active:bg-slate-500 ease-in-out duration-200">
-      <div class="p-1 border rounded-full">
-        <svg v-if="store.getters.isSidebarActive" class="w-5 h-5 fill-white" xmlns="http://www.w3.org/2000/svg"
+    <button @click="menu" class="p-1 rounded-full dark:hover:bg-slate-600 hover:bg-slate-200 active:bg-slate-100 dark:active:bg-slate-500  ease-in-out duration-200">
+      <div class="p-1 border rounded-full border-orange-500">
+        <svg v-if="store.getters.isSidebarActive" class="w-5 h-5 dark:fill-white fill-dark" xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24">
           <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
         </svg>
-        <svg v-else class="w-5 h-5 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <svg v-else class="w-5 h-5 dark:fill-white fill-dark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
           <path d="M4 11h12v2H4zm0-5h16v2H4zm0 12h7.235v-2H4z"></path>
         </svg>
       </div>

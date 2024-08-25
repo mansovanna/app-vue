@@ -18,7 +18,7 @@ export default {
       },
       colors: {
         dark:'#030637',
-        darks:'rgba(96, 96, 96, 0.65)',
+        darks:'rgba(96, 96, 96, 0.3)',
         primary: '#4A90E2',     // Blue
         secondary: '#50E3C2',   // Turquoise
         danger:'#FFAF00',
@@ -33,10 +33,11 @@ export default {
           200: '#F0F0F0',       // Light Gray
           900: '#2C3E50',       // Dark Gray
         },
-        blue: 'rgba(0,0,0,0.5)',
+        blues: 'rgba(0,0,0,0.5)',
+        'backg':'#f4f6f6',
       },
       boxShadow:{
-        boxx:'-2px 2px 15px rgba(0,0,0,0.6)',
+        boxx:'0px 1px 8px rgba(0,0,0,0.2)',
       }
     },
   },

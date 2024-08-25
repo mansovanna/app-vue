@@ -7,8 +7,8 @@
   
       <!-- Block Content: Notifications -->
       <div class="flex flex-col space-y-2 max-h-[85vh] overflow-y-auto">
-        <div v-for="(notification, index) in notifications" :key="index" class="flex items-center p-2 border border-orange-300 rounded hover:bg-orange-200 transition">
-          <div class="flex-shrink-0 p-2 bg-blue-500 text-white rounded-full">
+        <div v-for="(notification, index) in notifications" :key="index" class="flex items-center p-2 border border-orange-300 rounded hover:bg-blue-50 transition">
+          <div class="flex-shrink-0 p-2 bg-slate-100 text-white rounded-full">
             <!-- Notification Icon -->
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-orange-500" fill="none" viewBox="0 0 24 24" >
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
